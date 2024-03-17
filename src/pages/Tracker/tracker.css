@@ -1,0 +1,18 @@
+.trackerSec {
+    margin: 30px 30px;
+    text-align: center;
+    background-color: white;
+}
+.trackertitle{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.trackertitle h2{
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.trackerSec iframe {
+    margin-top: 20px;
+    width: 85%;
+    height: 600px;
+}

@@ -1,0 +1,30 @@
+.header{
+    margin-top: 10px;
+    background-color: white;
+}
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'lora', serif;
+    color: rgb(250, 220, 211);
+}
+.headerTitle img{
+    height: 500px;
+    width: 100%;
+}
+.title1{
+    position: absolute;
+    font-size: 30px;
+}
+.headerTitle h1{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.headerTitle p {
+    position: absolute;
+    margin-top: 380px;
+    padding: 0 170px;
+    color:#00B9FF;
+}

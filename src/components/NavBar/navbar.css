@@ -1,0 +1,125 @@
+.nav{
+    top: 0;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans' sans-serif;
+    background-color: white;
+    z-index: 10;
+}
+
+
+.left{
+    margin-left: 80px;
+    font-weight: 1000;
+}
+.left h3{
+    letter-spacing: 1px;
+    color: rgb(32, 32, 215);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left p{
+    margin-top: -3px;
+    font-size: 10px;
+    color: rgb(145, 144, 144);
+    font: 800;
+    text-align: center;
+}
+.left span{
+    font-size: 10px;
+    color: gold;
+    font: 800;
+}
+
+
+.middle{
+    margin-left: 200px;
+    display: flex;
+    list-style: none;
+}
+.middle li{
+    margin-right: 80px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.middlelink{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.midlink:hover{
+    color: blue;
+}
+
+
+
+.right{
+    width: 200px;
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+}
+
+.right-img{
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.right2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.right2 li{
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.rightlink{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.rightlink:hover {
+    color: blue;
+}
+
+
+
+
+
+
+
+/*   Animation Keyframes    */
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .navbar{
+        padding: 1rem 0.5rem;
+    }
+    .logo {
+        font-size: 4vw;
+        margin-right: 0.5vw;
+    }
+    .desktopMenuListItem {
+        font-size: 3vw;
+        margin: 0 1vw;
+    }
+    .desktopMenuBtn{
+        width: 14vh;
+        right: 0;
+        margin-right: 1vw;
+        font-size: 0.7rem;
+    }
+    .desktopMenuImg{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+}

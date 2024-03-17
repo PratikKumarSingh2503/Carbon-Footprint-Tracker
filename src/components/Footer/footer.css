@@ -1,0 +1,38 @@
+.footer {
+    width: 100vw;
+    margin-top: 40px;
+}
+
+.footerSec {
+    bottom: 0;
+    margin: 10px auto 0;
+    color: white;
+    background-color: #262626;
+}
+
+.footerContainer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footerSlide {
+    margin: 20px 90px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.footerSlide h3{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footerSlide a {
+    line-height: 2.5;
+    color: white;
+}
+.footerSec p{
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(255, 190, 190);
+}

@@ -1,0 +1,53 @@
+#about {
+  padding: 0px 0px;
+  color: #ababab;
+  top: 260px;
+}
+
+.aboutSec {
+  margin-top: 10px;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.aboutContainer {
+  margin: 10px 0;
+  /* background-color: red; */
+}
+
+/* .aboutVideo{
+  margin-top: 50px;
+  width: 100%;
+  height: 540px;
+} */
+
+.aboutVideo{
+  text-align: center;
+}
+.aboutContainer iframe{
+  margin: 10px;
+  align-items: center;
+  border-radius: 5px;
+}
+.aboutWrap{
+  display: flex;
+}
+.aboutWrap img{
+  margin: 20px 20px;
+  border-radius: 5px;
+}
+.aboutContainer h3{
+  margin-top: 20px;
+  padding: 10px 20px 0;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  /* background-color: red; */
+}
+.aboutContainer p{
+  padding: 5px 50px 5px 20px;
+  /* background-color: green; */
+}
+.aboutContainer spam{
+  font-weight: 500;
+  text-decoration: underline;
+}

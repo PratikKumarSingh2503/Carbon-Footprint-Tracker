@@ -1,0 +1,32 @@
+.workflowSec {
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+.workflowContainer{
+  margin: 20px;
+  padding: 0 30px;
+  background-color: white;
+}
+.workflowContainer h2{
+  margin-top: 20px;
+}
+.workflowContainer1 p{
+  margin-top: 5px;
+}
+
+.totracker {
+  text-align: center;
+}
+.workflowSec button {
+  margin: 20px 0;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: rgb(2, 219, 219);
+  list-style: none;
+}
+
+.workflowSec button:hover {
+  color: white;
+  background-color: rgb(0, 136, 136);
+}
